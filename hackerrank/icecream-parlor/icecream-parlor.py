@@ -14,5 +14,5 @@ if __name__ == '__main__':
         for i, c in enumerate(C[:-1]):
             for j in range(i + 1, len(C)):
                 if C[j] == M - c:
-                    print(i + 1, j + 1)
+                    print (i + 1), (j + 1)
                     break
